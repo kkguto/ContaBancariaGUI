@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 30px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-background-color: #0b75e7;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-pref-width: 200px;
+}
+
+.button:hover {
+    -fx-background-color: #1a5fa1;
+}
+
+.label {
+    -fx-text-fill: #2b79cc;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
